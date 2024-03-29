@@ -48,7 +48,7 @@ Numainda is a Knowledge bot designed to engage and educate on Pakistan's rich le
 
    Create a .streamlit/secrets.toml file:
 
-   ``plaintext
+   ```plaintext
    ASSISTANT_ID="<assistant-id>"
    OPEN_AI_API_KEY="<api-key>"
    ```
