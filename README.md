@@ -16,7 +16,7 @@ Numainda is a Knowledge bot designed to engage and educate on Pakistan's rich le
 ## Prerequisites
 
 - Python 3.9 or newer
-- Twitter Developer Account and access to the Twitter v2 API 
+- Twitter Developer Account and access to the Twitter v2 API (Coming Soon)
 - OpenAI API key for using GPT models
 
 ## Setup
@@ -44,6 +44,13 @@ Numainda is a Knowledge bot designed to engage and educate on Pakistan's rich le
    TWITTER_ACCESS_TOKEN=your_access_token
    TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
    OPENAI_API_KEY=your_openai_api_key
+   ```
+
+   Create a .streamlit/secrets.toml file:
+
+   ``plaintext
+   ASSISTANT_ID="<assistant-id>"
+   OPEN_AI_API_KEY="<api-key>"
    ```
 
 ## Usage
