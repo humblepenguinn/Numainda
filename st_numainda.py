@@ -3,6 +3,9 @@ import streamlit as st
 import time
 from classes.assistant import Assistant
 
+from dotenv import load_dotenv
+load_dotenv()
+   
 assistant_id = st.secrets["ASSISTANT_ID"]
 
 client = Assistant(openai_api_key=st.secrets["OPEN_AI_API_KEY"]).get_client()
@@ -26,7 +29,6 @@ st.markdown("""*Things You Can Ask Me:*
             
     * What happened in the parliament on 15th march 2024?
             """)
-
 
 if st.button("Start Chat"):
     st.session_state.start_chat = True

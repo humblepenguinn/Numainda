@@ -39,8 +39,8 @@ Numainda is a Knowledge bot designed to engage and educate on Pakistan's rich le
    Create a `.env` file in the project root and add your Twitter and OpenAI API keys:
 
    ```plaintext
-   TWITTER_API_KEY=your_twitter_api_key
-   TWITTER_API_SECRET=your_twitter_api_secret
+   TWITTER_CONSUMER_KEY=your_twitter_consumer_key
+   TWITTER_CONSUMER_SECRET=your_twitter_consumer_secret
    TWITTER_ACCESS_TOKEN=your_access_token
    TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
    OPENAI_API_KEY=your_openai_api_key
